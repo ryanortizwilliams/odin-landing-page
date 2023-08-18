@@ -1,0 +1,36 @@
+
+.flex-container{
+    display: flex;
+}
+
+header, .hero{
+    background-color: #1f2937;
+    color: #f9faf8;
+    flex: auto;
+
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.header-links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero h1{
+    font-size: 46px;
+    font-weight: bold;
+}
+
+.hero p{
+    font-size: 18px;
+    color: #e5e7eb;
+
+}
+
+button{
+    background-color: #3882f6;
+    color: #f9faf8;
+}

@@ -42,8 +42,9 @@ a{
 .hero{
     background-color: #1f2937;
     color: #f9faf8;
-    height: 400px;
+    min-height: 400px;
     padding: 30px 12%;
+    flex: 1;
 }
 
 
@@ -52,9 +53,17 @@ a{
     height: 300px;
 }
 
+.hero-text h1{
+    font-size: 48px;
+}
+
+.hero-text p{
+    font-size: 18px;
+    color: #e5e7eb;
+}
 
 .hero-image{
     background-color: gray;
-    flex: auto;
+    align-self: center;
 }
 

@@ -38,3 +38,23 @@ a{
     color: #e5e7eb ;
 }
 
+/* hero */
+.hero{
+    background-color: #1f2937;
+    color: #f9faf8;
+    height: 400px;
+    padding: 30px 12%;
+}
+
+
+.hero-text, .hero-image{
+    width: 400px;
+    height: 300px;
+}
+
+
+.hero-image{
+    background-color: gray;
+    flex: auto;
+}
+
